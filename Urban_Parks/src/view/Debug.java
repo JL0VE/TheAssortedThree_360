@@ -46,4 +46,12 @@ public class Debug {
 			System.out.println("\n\n\n\n\n");
 		}
 	}
+	
+	void ProductionMenu() {
+		clear();
+		System.out.println(" ________________________");
+		System.out.println("|                        |");
+		System.out.println("|    Production Menu     |");
+		System.out.println("|________________________|  Created by: TheAssortedThree\n");
+	}
 }
