@@ -51,7 +51,13 @@ public class Debug {
 		clear();
 		System.out.println(" ________________________");
 		System.out.println("|                        |");
-		System.out.println("|    Production Menu     |");
+		System.out.println("|          Menu          |");
 		System.out.println("|________________________|  Created by: TheAssortedThree\n");
+		
+		System.out.println("\nWhat data set would you like to switch to?");
+		System.out.println("(1) Pending jobs are maxed");
+		System.out.println("(2) Pending job in a week are maxed");
+		System.out.println("(3) Work Category is maxed");
+		System.out.println("(4) Default");
 	}
 }
